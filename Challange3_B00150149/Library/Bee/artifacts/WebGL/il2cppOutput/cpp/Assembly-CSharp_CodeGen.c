@@ -12,6 +12,9 @@
 
 
 
+extern void Link_OpenGithub_mCBE99A55B22838B04ED52E2A5CBBFE3258E4C412 (void);
+extern void Link_openWindow_m57B59E3B369B494981D14DEE06A0C223534025D9 (void);
+extern void Link__ctor_m63C9F1B9DEE13922D1EE2C3508D9BAE07D8324F8 (void);
 extern void MoveLeftX_Start_m252B91087F37116C77F4CB7391F1F40EB52C3F4D (void);
 extern void MoveLeftX_Update_m55602C88C7FD769587EA25057C19A3C02A0EFB37 (void);
 extern void MoveLeftX__ctor_m491F8CE682FBDDAC17B563DB8EEEF18ECADEA883 (void);
@@ -19,6 +22,9 @@ extern void PlayerControllerX_Start_m5BAE410291E1DABAC99D3F233D14AF0AA072A606 (v
 extern void PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B (void);
 extern void PlayerControllerX_OnCollisionEnter_m35E6B0ED27CD27A2652507073E9CD8965D19E32D (void);
 extern void PlayerControllerX__ctor_m3FFA731641AD6FA1CE627820042B7587E98D535A (void);
+extern void PressHandler_OnPointerDown_mE4A3AB7C45DF4246DD501D809A6EBB6AE2E41FD5 (void);
+extern void PressHandler__ctor_m0CD7508CE3B1FFF4EFF0733C5212B9B305274F95 (void);
+extern void ButtonPressEvent__ctor_m516CD67C95D008E473BDF03C87FB59B4A44ED431 (void);
 extern void RepeatBackgroundX_Start_mCC25F5A1C1CCD6F31A806A028011994E1A810F08 (void);
 extern void RepeatBackgroundX_Update_m20A8C5A0A0C306285D197CB122141F7B74860521 (void);
 extern void RepeatBackgroundX__ctor_m070298E2BCB37A9C02FBF7C9A3BA1EE617C526BC (void);
@@ -29,8 +35,11 @@ extern void SpinObjectsX_Update_m9C5EE349E1608B916F2DF217A48AE96D087956EB (void)
 extern void SpinObjectsX__ctor_m161ED225B7767334CBEBBB7981D66A3DC5AD257B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[17] = 
+static Il2CppMethodPointer s_methodPointers[23] = 
 {
+	Link_OpenGithub_mCBE99A55B22838B04ED52E2A5CBBFE3258E4C412,
+	Link_openWindow_m57B59E3B369B494981D14DEE06A0C223534025D9,
+	Link__ctor_m63C9F1B9DEE13922D1EE2C3508D9BAE07D8324F8,
 	MoveLeftX_Start_m252B91087F37116C77F4CB7391F1F40EB52C3F4D,
 	MoveLeftX_Update_m55602C88C7FD769587EA25057C19A3C02A0EFB37,
 	MoveLeftX__ctor_m491F8CE682FBDDAC17B563DB8EEEF18ECADEA883,
@@ -38,6 +47,9 @@ static Il2CppMethodPointer s_methodPointers[17] =
 	PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B,
 	PlayerControllerX_OnCollisionEnter_m35E6B0ED27CD27A2652507073E9CD8965D19E32D,
 	PlayerControllerX__ctor_m3FFA731641AD6FA1CE627820042B7587E98D535A,
+	PressHandler_OnPointerDown_mE4A3AB7C45DF4246DD501D809A6EBB6AE2E41FD5,
+	PressHandler__ctor_m0CD7508CE3B1FFF4EFF0733C5212B9B305274F95,
+	ButtonPressEvent__ctor_m516CD67C95D008E473BDF03C87FB59B4A44ED431,
 	RepeatBackgroundX_Start_mCC25F5A1C1CCD6F31A806A028011994E1A810F08,
 	RepeatBackgroundX_Update_m20A8C5A0A0C306285D197CB122141F7B74860521,
 	RepeatBackgroundX__ctor_m070298E2BCB37A9C02FBF7C9A3BA1EE617C526BC,
@@ -49,31 +61,37 @@ static Il2CppMethodPointer s_methodPointers[17] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[17] = 
+static const int32_t s_InvokerIndices[23] = 
 {
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	946,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	1119,
-	2158,
-	1119,
+	4195,
+	5974,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	3389,
+	4195,
+	3389,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	6100,
+	4195,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	17,
+	23,
 	s_methodPointers,
 	0,
 	NULL,
